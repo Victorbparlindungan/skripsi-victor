@@ -64,6 +64,7 @@ class Booking extends BaseController
         $id = $this->request->getPost('id');       
         $data =[
             'id_unit'          => $this->request->getPost('id_unit'),
+            'status'          => "BOOKED",
         ];
         
         $update = $this->bookingModel->ubah_data($data,$id);
