@@ -130,7 +130,6 @@ class Groupuser extends BaseController
                ]
             ],
         ];
-        
         return $rules;
     }
 }
