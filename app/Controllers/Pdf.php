@@ -12,8 +12,7 @@ class Pdf extends BaseController
 		$this->bookingModel = new BookingModel();
         $this->session = \Config\Services::session();
         $this->validation = \Config\Services::validation();
-        $this->session->start();
-        
+        $this->session->start();   
 	}
     public function index()
     {   
